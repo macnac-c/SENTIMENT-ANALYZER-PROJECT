@@ -7,7 +7,7 @@ vectorizer = load("vectorizer.joblib")
 st.title("🧠 Sentiment Analyzer")
 
 # Sample review toggle
-if st.checkbox("Need a sample?"):
+if st.checkbox("Need an example?"):
     st.info("Try this: 'I didn’t like the quality of this product.'")
 
 # Input review
